@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sup, tt,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Hobo Std", "Arial Rounded MT Bold";
+    font-weight:normal;
+    text-transform:uppercase;
+    line-height:100%;
+    margin-top:0;
+}
+
+h1 {
+    font-size:48px;
+}
+
+h2 {
+    font-size:26px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+h4 {
+	
+}
+
+/* Main CSS */
+
+html {
+background-color: #ceddf2;
+}
+
+#container {
+	font-family:"Hobo Std", "Arial Rounded MT Bold";
+    font-weight:normal;
+	color: #fefefe;
+}
+
+#header {
+    border: 1px solid #a9c3cc;
+    background-color: #c4c5bd;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    height: 80px;
+	-moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#flomad {
+    float: left;
+    left: 7px;
+    position: relative;
+    top: 15px;
+}
+
+#flomad a {
+	color: #fefefe;
+}
+
+#flomad a:hover {
+	text-decoration: none;
+	color: #fefefe;
+}
+
+#collab {
+    position:absolute;
+	left:4em;
+    top:4em;
+}
+
+#logo {
+	float: left;
+	position: absolute;
+	left: 47%; 
+	margin-left: -35;
+	top: 11px;
+}
+
+#faq {
+	font-size: 20px;
+	float: leftt;
+	position: absolute;
+	left: 90%;
+	top: 33px;
+}
+
+#faq a {
+	color: #fefefe;
+}
+
+#rules {
+	padding-top: 3px;
+	width: 35%;
+	text-align: left;	
+}
+
+.objects {
+	width: 660px;
+	margin: 20px;
+}
+
+.chatBox {
+	border: 1px solid #000;
+	width: 500px;
+	background-color: #c4c5bd;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	float: left;
+	margin-right: 3px;
+	-moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.chatBox .user {
+	text-align: right;
+	padding: 5px;
+	color: #fefefe;
+}
+
+.user a{
+	color: #fefefe;
+}
+.user input#signIn {
+	color: #fefefe;
+	font-size: 10pt;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+.user input#signIn:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.user input {
+	margin-right: 5px;
+}
+
+.user .error {
+	color: red;
+	margin-right: 5px;
+}
+
+/* message log area */
+.chatBox .main {
+	background-color: #fff;
+	height: 400px;
+	padding: 5px;
+	overflow-y: auto;	
+	word-wrap: break-word;
+	text-align: left;
+	font: Arial, sans-serif;
+}
+
+/*new message area*/
+.chatBox .messageBox {
+	padding: 7px 5px 5px 5px;
+}
+
+.displayNames {
+	width: 150px;
+	background-color: #fff;
+	color: #000;
+	font-family: Arial, sans-serif;
+	border: 1px solid #000;
+	height: 465px;
+	padding: 5px;
+	overflow: auto;
+	-moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#contributors {
+	font-size: 16pt;
+	font-style: bold;	
+}
+
+#newMessageContent {
+	font: 14px arial, sans-serif;
+	width: 400px;
+	height: 32px;	
+}
+
+#newMessageSend {
+	height: 36px;
+	width: 80px;
+}
+
+.chatBox .messageBox .left {
+	float: left;
+	width: 410px;
+}
+
+#messageBoxSignIn {
+	padding: 8px;
+	width: 100%;
+}
+
+/* sign in and out */
+#singOut {
+	font: 14px arial, sans-serif;
+	color: blue;
+	text-decoration: none;
+	margin-left: 8px;	
+}
+
+#signOut.hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#comingsoon a {
+	color: #fefefe;	
+}
+
+.motivation {
+	width: 50%;
+	background-color: #fefefe;	
+	color: #c4c5bd;
+}
+
+.quote {
+	float: left;	
+}
+
+#footer {
+    border: 1px solid #a9c3cc;
+    background-color: #c4c5bd;
+	height: 3.5em;
+	position: absolute;
+	width: 100%;
+	margin-top: 20px;
+	color: #fefefe;
+}
+
+#footer p {
+	margin-top: 5px;
+}
+
+#footer a {
+	color: #fefefe;
+}
+
+#signuptext { 
+	text-shadow: #c4c5bd 0.1em 0.1em 0.2em
+}

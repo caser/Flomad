@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sup, tt,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Hobo Std", "Arial Rounded MT Bold";
+    font-weight:normal;
+    text-transform:uppercase;
+    line-height:100%;
+    margin-top:0;
+}
+
+h1 {
+    font-size:48px;
+}
+
+h2 {
+    font-size:26px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+h4 {
+	
+}
+
+/* Main CSS */
+
+html {
+background-color: #ceddf2;
+}
+
+#container {
+	font-family:"Hobo Std", "Arial Rounded MT Bold";
+    font-weight:normal;
+	color: #fefefe;
+}
+
+#header {
+    border: 1px solid #a9c3cc;
+    background-color: #c4c5bd;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    height: 80px;
+	-moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#flomad {
+    float: left;
+    left: 7px;
+    position: relative;
+    top: 15px;
+}
+
+#flomad a {
+	color: #fefefe;
+}
+
+#flomad a:hover {
+	text-decoration: none;
+	color: #fefefe;
+}
+
+#collab {
+    position:absolute;
+	left:4em;
+    top:4em;
+}
+
+#logo {
+	float: left;
+	position: absolute;
+	left: 47%; 
+	margin-left: -35;
+	top: 11px;
+}
+
+#faq {
+	font-size: 20px;
+	float: leftt;
+	position: absolute;
+	left: 90%;
+	top: 33px;
+}
+
+#faq a {
+	color: #fefefe;
+}
+
+#biglogo {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#aboutflomad {
+	width: 60%;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.aboutrow {
+	margin-bottom: 5px;
+}
+
+#aboutpeople {
+	padding-top: 15px;
+	width: 60%;
+}
+
+#abouttext {
+    background-color: #fefefe;
+    color: #c4c5bd;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#tablespace {
+    width: 15px;
+}
+
+.signup {
+    padding-top: 5px;
+	padding-bottom: 20px;
+    font-size: 14pt;
+}
+
+#share {
+	border: 3px solid #000;
+}
+
+#footer {
+    border: 1px solid #a9c3cc;
+    background-color: #c4c5bd;
+	height: 3.5em;
+	position: absolute;
+	width: 100%;
+}
+
+#footer p {
+	margin-top: 5px;
+}
+
+#footer a {
+	color: #fefefe;
+}
+
+#signuptext { 
+	text-shadow: #c4c5bd 0.1em 0.1em 0.2em
+}
